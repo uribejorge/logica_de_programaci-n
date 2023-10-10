@@ -11,6 +11,8 @@
 
 ### SOLUCIÓN
 
+3. ## Cálculo del índice de masa corporal (IMC)
+
 ```
 import java.util.Scanner;
 

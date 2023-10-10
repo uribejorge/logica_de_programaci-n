@@ -74,6 +74,7 @@ int suma = numero1 + numero2;
         // Cerrar el objeto Scanner
         scanner.close();    
     }
+}
 
 ```
 2. ## Resta y división:

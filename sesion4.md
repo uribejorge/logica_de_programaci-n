@@ -43,7 +43,7 @@ int semestre = 2;
 - 4.5 - 5.0: El estudiante recibe una beca completa.
 
 ## Solución
-### Determinar si el estudiante es mayor de edad y tiene un estado activo.
+1. ### Determinar si el estudiante es mayor de edad y tiene un estado activo.
 
 ```
 /*
@@ -308,7 +308,7 @@ int semestre = 2;
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.ejerciciotrece;
+package com.mycompany.ejerciciocatorce;
 
 import java.util.Scanner;
 
@@ -316,7 +316,7 @@ import java.util.Scanner;
  *
  * @author USer
  */
-public class Ejerciciotrece {
+public class Ejerciciocatorce {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
@@ -339,15 +339,8 @@ double promedio = 4.5;
 // Variable de tipo int
 int semestre = 2;
 
- if (universidad.equals("Cesde")) {
-            System.out.println("El estudiante estudia en el cesde");    
-            System.out.println("nombre juan perez");
-            System.out.println("apellido gonzales");
-            System.out.println("identificacion 1000000001");
-            System.out.println("correo juan.perez@ejemplo.com");
-            System.out.println("carrera desarrollo de software");
-            System.out.println("universidad cesde");
-            
+if (universidad.equals("Cesde") && promedio > 4.0 && esActivo == true) {
+            System.out.println(" El estudiante tiene una beca del 50% se encuentra matriculado en el cesde y tiene un promedio superior a 4.0.");
         } else {
             System.out.println("El estudiante no cumple con los requisitos.");
         }
@@ -360,6 +353,7 @@ int semestre = 2;
 - 3.5 - 3.9: El estudiante recibe una beca parcial del 25%.
 - 4.0 - 4.4: El estudiante recibe una beca parcial del 50%.
 - 4.5 - 5.0: El estudiante recibe una beca completa.
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -426,3 +420,7 @@ int semestre = 2;
 }
 
 ```
+
+
+
+
