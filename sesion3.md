@@ -27,6 +27,7 @@
 
 
 1. ## Suma y multiplicacion.
+
 ```
 
 /*
@@ -46,7 +47,7 @@ public class Actividad1logica {
         System.out.println("Hello World!");
         Scanner scanner = new Scanner(System.in);
         
-        // Solicitar al usuario dos números enteros
+        
         System.out.print(
        
 "Ingrese el primer número entero: ");
@@ -55,10 +56,6 @@ public class Actividad1logica {
         System.out.print("Ingrese el segundo número entero: ");
         int numero2 = scanner.nextInt();
 
-        
-
-       
-// Calcular la suma y la multiplicación
         
        
 int suma = numero1 + numero2;
@@ -99,7 +96,6 @@ public class Actividad2logica {
         System.out.println("Hello World!");
         Scanner Scanner = new Scanner(System.in);
         
-        // solicitar al usuario dos numeros enteros 
         
         System.out.print(
      " ingrese el primer numero entero: ");
@@ -107,17 +103,12 @@ public class Actividad2logica {
           
           System.out.print("ingrese el segundo numero entero: ");
           int numero2 = Scanner.nextInt();
-          
-          
-          
-          
-          // calcula la resta y la division
+        
           
           
           int resta = numero1 - numero2; 
           double division =numero1 / numero2;
           
-          // imprimir los resultados 
           
           System.out.println( "la resta de los numeros es: " +  resta );
           System.out.println("");
@@ -131,6 +122,7 @@ public class Actividad2logica {
 
     }
 }
+
 ```
 3. ## Operaciones combinadas:
 
@@ -192,8 +184,10 @@ int suma = numero1 + numero2 + numero3;
         
     }
 }
+
 ```
 4. ## Operaciones con decimales:
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -226,10 +220,6 @@ public class Actividad4logica {
         
         
        
-        
-        // operaciones con decimales 
-        
-       
 double suma = numero1 + numero2 ;
 double resta = numero1 - numero2;
 double multiplicacion = numero1 * numero2;
@@ -252,15 +242,13 @@ double division = numero1 / numero2;
                  "la division de los numeros es: " +  division );
         
         
-        
-// Cerrar el objeto Scanner
-        
        
         
         scanner.close(); 
         
     }
 }
+
 ```
 5. ### Incremento y decremento:
 
@@ -288,10 +276,6 @@ public class Actividad5logica {
         int numero = 9;
 
         
-
-       
-// Incrementar el valor y mostrar el resultado
-        
         System.out.println(
          numero);
         numero++;
@@ -303,14 +287,10 @@ public class Actividad5logica {
         System.out.println("Después de incrementar: " +numero++);
 
         
-
-// Decrementar el valor  y mostrar el resultado
         int numerodecrementar = numero - 3;
         System.out.println("Después de decrementar: " + numerodecrementar);
         
-        
-        
-// Cerrar el objeto Scanner
+
         
        
         
@@ -318,9 +298,11 @@ public class Actividad5logica {
         
     }
 }
+
 ```
 
 6. ## Operador de asignación compuesta: 
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -339,23 +321,24 @@ public class Actividad6logica {
     public static void main(String[] args) {
         System.out.println("Hello World!");
         
-        // Declarar e inicializar la variable entera
+        
         int numero = 10;
 
         
 
-// Utilizar el operador de asignación compuesta para sumar 5
         numero += 
         numero += 5;
 
-        // Mostrar el valor resultante
+        
         System.out.println("El valor después de sumar 5 es: " + numero);
         
         
     }
 }
+
 ```
 7. ### operadores lógicos:
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -376,7 +359,7 @@ public class Actividad7logica {
         
         Scanner scanner = new Scanner(System.in);
 
-        // Solicitar al usuario dos valores booleanos
+
         System.out.print(
         
 "Ingrese el primer valor booleano (true o false): ");
@@ -424,8 +407,10 @@ boolean resultadoNOT2 = !valor2;
         scanner.close();
     }
 }
+
 ```
 8. ## Operador ternario:
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license

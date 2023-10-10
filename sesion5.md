@@ -49,6 +49,7 @@ public class Actividadelogica5 {
     }
 }
     }
+
 ```
 2. ## Pedir al usuario que ingrese una cadena de caracteres y contar la cantidad de caracteres que son números.
 
@@ -186,6 +187,7 @@ public class Actividad5logicajorgeuribe {
         scanner.close();
     }
 }
+
 ```
 ## Ejercicios - for
 - ## Imprimir los números impares del 1 al 50.
@@ -213,6 +215,7 @@ public class Actividad5jorgeuribe {
         }
     }
 }
+
 ```
 - ### Imprimir los números primos del 1 al 100.
 

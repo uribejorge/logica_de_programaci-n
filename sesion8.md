@@ -94,7 +94,7 @@ import java.util.Scanner;
 }
 
 ```
-3. ### Escribe un método que reciba una cadena de texto como parámetro y devuelva una nueva cadena con todas las letras mayúsculas en minúsculas y viceversa.
+3.  ### Escribe un método que reciba una cadena de texto como parámetro y devuelva una nueva cadena con todas las letras mayúsculas en minúsculas y viceversa.
 
 ```
 /*
