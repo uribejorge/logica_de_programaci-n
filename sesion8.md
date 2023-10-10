@@ -18,6 +18,7 @@
 
 
 1. ### Escribe un método que reciba dos números como parámetros y devuelva el mayor de los dos.
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -48,9 +49,11 @@ public class Actividad8metodosyava {
         System.out.println("El número mayor entre " + numero1 + " y " + numero2 + " es: " + mayor);
     }
 }
+
 ```
 
 2. ### Escribe un método que reciba una cadena de texto como parámetro y devuelva el número de vocales que contiene.
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -89,8 +92,10 @@ import java.util.Scanner;
         System.out.println("El número de vocales en la cadena es: " + numeroDeVocales);
     }
 }
+
 ```
 3. ### Escribe un método que reciba una cadena de texto como parámetro y devuelva una nueva cadena con todas las letras mayúsculas en minúsculas y viceversa.
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -132,8 +137,10 @@ public class Actividad8cadenasmayusculasminusculas {
         System.out.println("Texto con mayúsculas y minúsculas intercambiadas: " + textoCambiado);
     }
 }
+
 ```
 4. ### Escribe un método que reciba una cadena de texto como parámetro y devuelva el número de palabras que contiene.
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -164,8 +171,10 @@ public class Actividad8metododepalabras {
         System.out.println("El número de palabras en la cadena es: " + numeroDePalabras);
     }
 }
+
 ```
 5. ### Escribe un método que reciba una cadena de texto como parámetro y devuelva una nueva cadena con todas las palabras en orden alfabético.
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -201,4 +210,5 @@ public class Actividad8metodoalfabetico {
         System.out.println("Texto con palabras ordenadas alfabéticamente: " + textoOrdenado);
     }
 }
+
 ```

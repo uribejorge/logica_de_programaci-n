@@ -80,6 +80,7 @@ int suma = numero1 + numero2;
 
 ```
 2. ## Resta y división:
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -132,6 +133,7 @@ public class Actividad2logica {
 }
 ```
 3. ## Operaciones combinadas:
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -261,6 +263,7 @@ double division = numero1 / numero2;
 }
 ```
 5. ### Incremento y decremento:
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -370,7 +373,7 @@ public class Actividad7logica {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        // Crear un objeto Scanner para leer la entrada del usuario
+        
         Scanner scanner = new Scanner(System.in);
 
         // Solicitar al usuario dos valores booleanos
@@ -386,16 +389,11 @@ boolean valor1 = scanner.nextBoolean();
         
 
 
-       
-
-
-"Ingrese el segundo valor booleano (true o false): ");
+       "Ingrese el segundo valor booleano (true o false): ");
         boolean valor2 = scanner.nextBoolean();
 
         
 
-       
-// Realizar operaciones lógicas AND, OR y NOT
         boolean resultadoAND = valor1 && valor2;
         boolean resultadoOR = valor1 || valor2;
         
@@ -407,10 +405,6 @@ boolean resultadoNOT2 = !valor2;
 
         
 
-       
-
-
-// Mostrar los resultados
         System.out.println(
         
 "Resultado de la operación AND: " + resultadoAND);
@@ -426,7 +420,7 @@ boolean resultadoNOT2 = !valor2;
        
 "Resultado de la operación NOT para el segundo valor: " + resultadoNOT2);
 
-        // Cerrar el objeto Scanner
+        
         scanner.close();
     }
 }
@@ -448,7 +442,7 @@ public class Actividad8logica {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        // Crear un objeto Scanner para leer la entrada del usuario
+        
         
         
 
@@ -458,7 +452,7 @@ Scanner scanner = new Scanner(System.in);
         
 
        
-// Solicitar al usuario un número entero
+
         System.out.print(
        
 "Ingrese un número entero: ");
@@ -466,20 +460,20 @@ Scanner scanner = new Scanner(System.in);
 
         
 
-// Utilizar el operador ternario para determinar si el número es positivo o negativo
+
         String resultado = (numero >= 0) ? "positivo" : "negativo";
 
         
 
        
-// Mostrar el resultado
+
         System.out.println(
         
 "El número es " + resultado);
 
         
 
-// Cerrar el objeto Scanner
+
         scanner.close();
 
     }

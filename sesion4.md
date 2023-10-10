@@ -5,6 +5,7 @@
 
 
 ## Actividad 4: Ejercicios de control de flujo con expresiones compuestas
+
 ```
 // Variables de tipo String
 String nombre = "Juan Pérez";
@@ -24,6 +25,7 @@ char género = 'M';
 double promedio = 4.5;
 // Variable de tipo int
 int semestre = 2;
+
 ```
 
 #### Con la información anterior, implementa los siguientes ejercicios:
@@ -42,6 +44,7 @@ int semestre = 2;
 
 ## Solución
 ### Determinar si el estudiante es mayor de edad y tiene un estado activo.
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -91,8 +94,10 @@ int semestre = 2;
         }
     }
 }
+
 ```
 2. ### Determinar si el estudiante tiene una beca o una carrera relacionada con el desarrollo de software.
+
 ```
 package com.mycompany.ejercicio10;
 import java.util.Scanner;
@@ -137,8 +142,10 @@ int semestre = 2;
     }
  
 }
+
 ```
  3. ## Determinar si el estudiante está en el último semestre de su - carrera y tiene un estado activo  
+
 ```
       /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -185,6 +192,7 @@ int semestre = 2;
 
 ```
 4. ## Determinar si el estudiante tiene una carrera relacionada con el desarrollo de software y un promedio superior a 4.0.
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -237,8 +245,10 @@ int semestre = 2;
     
     }
 }
+
 ```
 5. ## Mostrar toda la información del estudiante si está matriculado en el Cesde.
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -289,8 +299,10 @@ int semestre = 2;
         }
     }
 }
+
 ```
 6. ## Asignar una beca del 50% si el estudiante está matriculado en el Cesde, tiene un promedio superior a 4.0 y está activo.
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -412,4 +424,5 @@ int semestre = 2;
                 }
 }
 }
+
 ```

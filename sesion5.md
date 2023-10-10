@@ -20,6 +20,7 @@ Resolver los siguientes ejercicios:
 ## Solución
 
 - Pedir al usuario que ingrese un número y mostrar su tabla de multiplicar hasta el número 10.
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -50,6 +51,7 @@ public class Actividadelogica5 {
     }
 ```
 2. ## Pedir al usuario que ingrese una cadena de caracteres y contar la cantidad de caracteres que son números.
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -89,10 +91,12 @@ public class Actividad5delogicajorgeuribe {
         scanner.close();
     }
 }
+
 ```
 
 ## Ejercicios - do while
 - Escribe un programa en Java que imprima los números del 1 al 100, pero que se detenga si el usuario introduce un número negativo.
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -144,6 +148,7 @@ public class Actividad5jorgeuribelogica {
 ```
 
 - ## Escribe un programa en Java que pida al usuario un número entero e imprima la tabla de multiplicar de ese número, pero que se detenga si el usuario introduce el número 0.
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -184,6 +189,7 @@ public class Actividad5logicajorgeuribe {
 ```
 ## Ejercicios - for
 - ## Imprimir los números impares del 1 al 50.
+
 ```
 
 /*
@@ -209,6 +215,7 @@ public class Actividad5jorgeuribe {
 }
 ```
 - ### Imprimir los números primos del 1 al 100.
+
 ```
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -256,6 +263,7 @@ public class Actividad5jorgeuribelogica {
         return true;
     }
 }
+
 ```
 
 

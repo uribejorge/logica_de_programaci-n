@@ -40,12 +40,15 @@ Solo uno de los interruptores enciende una luz en la habitación adyacente; los 
 ## Solucion
 
 TECNICO LABORAL EN ASITENTE EN DESARROLLO DE SOFTWARE
+
 CESDE (BELLO)
 
 TRABAJO: ACTIVIDAD DE CONSULTA
-ELBORADO POR:
-JORGE OMAR URIBE RODRIGUEZ
+
+ELABORADO POR:JORGE OMAR URIBE RODRIGUEZ
+
 CORREO: JORGE.URIBE112180@GMAIL.COM
+
 JOURIBERO@CESDE.NET
 
 MATERIA: LOGICA DE PROGRAMACION
@@ -165,33 +168,41 @@ booleana en la programación:
 - Estruturas condicionales: Las declaraciones if, else if y else permiten que el
 programa ejecute diferentes bloques de código según si una condición es
 verdadera o falsa. Por ejemplo:
+
 ```
 If temperatura > 30:
 Print (“hace calor”)
 Else:
 Print (“no hace tanto calor”)
+
 ```
 - Bucles: Los bucles, como el bucle while o for, se ejecutan repetidamente
 mientas una condición sea verdadera. Por ejemplo:
+
 ```
 While contador < 10:
 // realizar alguna tarea
 Contador++;
+
 ```
 - Expresiones booleanas: Se utilizan en comparaciones para evaluar si una
 afirmación es verdadera o falsa. Por ejemplo:
+
 ```
 If (edad >= 18 && tiene licencia) {
 // puede conducir}
+
 ```
 - Operadores lógicos: AND (&&), OR (ll) y NOT (!) se utilizan para combinar
 expresiones booleanas y realizar operaciones lógicas más complejas.
 - Retorno de funciones: Las funciones pueden devolver valores booleanos para
 indicar el éxito o el fracaso de una operación. Por ejemplo:
+
 ```
 def es _par (numero):
 return
 n número % 2 == 0
+
 ```
 La lógica booleana es fundamental para decisiones y controlar el flujo de ejecución
 en la programación, permitiendo que los programas se adapten y respondan a
@@ -221,6 +232,7 @@ del programa:
 ° continue: Salta a la siguiente iteración de un bucle.
 ° return: Finaliza la ejecución de una función y devuelve un valor (si es una función
 con retorno).
+
 ```
 Ejemplo de una estructura condicional de Python:
 Edad = 20
@@ -234,6 +246,7 @@ Cout << “iteración “<< i << end1;
 Estas estructuras de control de flujo son esenciales para crear programas que
 realicen tareas específicas, respondan a condiciones cambiantes y repitan
 operaciones de manera eficiente.
+
 ```
 
 8. ### ¿QUE ES UNA VARIABLE Y PARA QUE SE UTILIZA EN LA PROGRAMACION?
@@ -255,6 +268,7 @@ valores que cambian a medida que el programa se ejecuta.
 usuario en variables para procesarlas y proporcionar una respuesta adecuada.
 - Crear estructuras de datos: Las variables pueden utilizarse para construir
 estructuras más complejas, cómo matrices, listas, objetos y más.
+
 ```
 Ejemplo de Python:
 Nombre = “juan”
@@ -263,6 +277,7 @@ Altura = 175
 Aquí, “nombre”, “edad” y “altura” son variables que almacenan diferentes tipos de
 datos. Las variables te permiten mantener y manipular estos valores a lo largo de
 tu programa para lograr los objetivos deseados.
+
 ```
 
 9. ### ¿COMO SE UTILIZAN LAS FUNCIONES EN LA PROGRAMACION?
@@ -277,6 +292,7 @@ que aceptara (valores que se pasan a la función) y, opcionalmente, el tipo de v
 que la función devolverá.
 def saludar(nombre):
 Print (“¡hola,”, nombre, “!”)
+
 ```
 - Llamada a funciones: Para usar una función la llamas por su nombre y
 proporcionadas los valores necesarios (si hay parámetros) entre paréntesis. Esto
@@ -285,11 +301,13 @@ Saludar (“juan”)
 - Retorno de valores: Si una función esta diseñada para devolver un valor, puede
 utilizar la palabra clave return para enviar ese valor de vuelta a quien llamo a la
 función.
+
 ```
 def suma (a, b):
 resultado = a + b
 return resultado
 resultado suma = suma (5, 3)
+
 ```
 - Reutilizacion: puedes llamar a la misma función múltiples veces en diferentes
 partes del programa, lo que evita la duplicación de código y simplifica la gestión de
@@ -330,6 +348,7 @@ jerarquías de clases.
 - Poliformismo: Permite que los objetos de diferentes clases sean tratados como
 si fueran del mismo tipo. Esto facilita la creación de interfaces más genéricas y
 flexibles.
+
 ```
 Ejemplo de Python:
 Class persona:
@@ -341,6 +360,7 @@ print (f” hola, mi nombre es
 { self. Nombre} y tengo {seld. edad} años. “)
 Personal 1 = persona (“juan”, 25)
 Personal1.saludar()
+
 ```
 En este ejemplo, “persona “es una clase que define la estructura y
 comportamiento de objetos tipo persona. La función _ _init_ _ es un construtor que

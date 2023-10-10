@@ -32,9 +32,11 @@ public class IMC {
       System.out.printf("Su IMC es %.2f", imc);
    }
 }
+
 ```
 6. ## Calcular el movimiento parabólico de un proyectil
-``
+
+```
 import java.util.Scanner;
 
 public class MovimientoParabolico {
@@ -70,4 +72,5 @@ public class MovimientoParabolico {
       System.out.printf("El tiempo de vuelo es de %.2f segundos.", tiempo);
    }
 }
+
 ```
