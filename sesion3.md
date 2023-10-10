@@ -26,7 +26,7 @@
 
 
 
-1. ## Suma y multiplicacion.
+- ## Suma y multiplicacion.
 
 ```
 
@@ -77,7 +77,7 @@ int suma = numero1 + numero2;
 }
 
 ```
-2. ## Resta y división:
+- ## Resta y división:
 
 ```
 /*
@@ -125,7 +125,7 @@ public class Actividad2logica {
 }
 
 ```
-3. ## Operaciones combinadas:
+- ## Operaciones combinadas:
 
 ```
 /*
@@ -187,7 +187,7 @@ int suma = numero1 + numero2 + numero3;
 }
 
 ```
-4. ## Operaciones con decimales:
+- ## Operaciones con decimales:
 
 ```
 /*
@@ -251,7 +251,7 @@ double division = numero1 / numero2;
 }
 
 ```
-5. ### Incremento y decremento:
+- ### Incremento y decremento:
 
 ```
 /*
@@ -302,7 +302,7 @@ public class Actividad5logica {
 
 ```
 
-6. ## Operador de asignación compuesta: 
+- ## Operador de asignación compuesta: 
 
 ```
 /*
@@ -338,7 +338,7 @@ public class Actividad6logica {
 }
 
 ```
-7. ### operadores lógicos:
+- ### operadores lógicos:
 
 ```
 /*
@@ -410,7 +410,7 @@ boolean resultadoNOT2 = !valor2;
 }
 
 ```
-8. ## Operador ternario:
+- ## Operador ternario:
 
 ```
 /*

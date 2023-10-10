@@ -60,6 +60,7 @@ MEDELLIN, 08 DE AGOSTO 2023
 ACTIVIDAD DE CONSULTA:
 
 1. ## ¿QUE ES LA LOGICA DE PROGRAMACION?
+
 La lógica de programación es la base fundamental para crear algoritmos y escribir
 código en lenguajes de programación. Se refiere a la forma en que se organizan
 las instrucciones y se toman decisiones lógicas para resolver un problema. Implica
@@ -69,6 +70,7 @@ a problemas computacionales. La lógica de programación se enfoca en cómo
 abordar y resolver un problema mediante la secuencia lógica de pasos y
 decisiones.
 #### QUE ES BUCLES:En programación, son estructuras que permiten repetir un
+
 conjunto de instrucciones varias veces mientras se cumple una condición
 determinada. Los bucles son herramientas esenciales para automatizar tareas
 repetitivas y realizar iteraciones sobre una serie de datos o procesos. Hay dos
@@ -85,6 +87,7 @@ y puedan realizar tareas repetitivas sin necesidad de repetir manualmente el
 mismo código una y otra vez.
 
 2. ### ¿CUALES SON LOS ELEMENTOS BASICOS DE LA LOGICA DE PROGRAMACION?
+
 - Secuencia: la secuencia es la disposición ordenada de instrucciones que se
 ejecutan en orden lineal, una tras otra, para lograr un objetivo específico.
 - Selección o condicionales: Estos elementos permiten que el programa tome
@@ -108,6 +111,7 @@ Estos elementos forman la base de la lógica de programación y se combinan para
 crear algoritmos y programas efectivos.
 
 3. ### ¿CUAL ES LA DIFERENCIA ENTRE EL LENGUAJE DE PROGRAMACION Y LENGUAJE DE MARCADO?
+
 El lenguaje de programación se utiliza para escribir instrucciones que una
 computadora puede entender y ejecutar controlando el comportamiento de un
 programa. Por otro lado, el lenguaje de marcado se utiliza para formatear y
@@ -117,6 +121,7 @@ ejecución, un lenguaje de marcado se enfoca en la presentación y la organizaci
 del contenido.
 
 4. ### ¿QUE ES UN ALGORITMO Y PARA QUE SE UTILIZA EN LA PROGRAMACION?
+
 Un algoritmo es una serie de pasos o instrucciones bien definidas que siguen para
 resolver un problema o realizar una tarea. En programación, los algoritmos se
 utilizan para describir la secuencia exacta de pasos que den de seguir una
@@ -209,6 +214,7 @@ en la programación, permitiendo que los programas se adapten y respondan a
 diferentes situaciones.
 
 7. ### ¿QUE SON LAS ESTRUTURAS DE CONTROL DE FLUJO Y COMO SE UTILIZAN EN LA PROGRAMACION?
+
 Las estructuras de control de flujo son herramientas que permiten a los
 programadores controlar el orden de ejecución de las instrucciones de un
 programa. Estas estructuras son fundamentales para tomar decisiones repetir
@@ -250,6 +256,7 @@ operaciones de manera eficiente.
 ```
 
 8. ### ¿QUE ES UNA VARIABLE Y PARA QUE SE UTILIZA EN LA PROGRAMACION?
+
 En programación, una variable es un espacio de memoria que se utiliza para
 almacenar y manipular datos. Las variables permiten que los programas
 almacenen valores que pueden cambiar durante la ejecución y se utilizan para
@@ -281,6 +288,7 @@ tu programa para lograr los objetivos deseados.
 ```
 
 9. ### ¿COMO SE UTILIZAN LAS FUNCIONES EN LA PROGRAMACION?
+
 Las funciones son bloques de código que realiza una tarea especifica y pueden
 ser reutilizados en diferentes partes de un programa. Se utilizan para organizar y
 modularizar el código, lo que hace que el desarrollo y el mantenimiento sean más
@@ -323,6 +331,7 @@ promueven la reutilización de código, aumenta la legibilidad y la modularidad,
 facilitan el mantenimiento y la resolución de problemas.
 
 10. ### ¿QUE ES LA PROGRAMACION ORIENTADA A OBJETOS Y COMO SE UTILIZA EN LA PROGRAMACION?
+
 La programación orientada a objetos (POO) es un paradigma de programación
 que se basa en la creación y manipulación de objetos. En lugar de escribir código
 como una serie de instrucciones lineales, en la POO se modela el mundo real en
