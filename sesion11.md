@@ -117,4 +117,52 @@ public class EJERCICIO11ENTEROS {
 
 ```
 
+## Utilizando bucle for
+
+```
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
+ */
+
+package com.mycompany.actividad;
+
+/**
+ *
+ * @author CESDE
+ */
+public class Actividad {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+        
+
+    
+        // Declaramos la variable para almacenar el número decimal
+        int numeroDecimal = 10;
+
+        // Declaramos la variable para almacenar el resultado
+        String numeroBinario = "";
+
+        // Inicializamos el bucle
+        for (int i = numeroDecimal; i > 0; i /= 2) {
+
+            // Calculamos el resto de la división
+            int resto = i % 2;
+
+            // Añadimos el resto a la cadena
+            numeroBinario = resto + numeroBinario;
+        }
+
+        // Imprimimos el resultado
+        System.out.println("El número binario es: " + numeroBinario);
+    }
+
+    }
+
+```
+
+
+
 
