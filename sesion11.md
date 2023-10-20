@@ -34,30 +34,30 @@ public class Actividad11 {
      
 
     
-        // Declaramos la variable para almacenar el número decimal
+        
         int numeroDecimal = 10;
 
-        // Declaramos la variable para almacenar el resultado
+        
         String numeroBinario = "";
 
-        // Inicializamos el bucle
+    
         int i = 0;
         while (numeroDecimal > 0) {
 
-            // Calculamos el resto de la división
+            
             int resto = numeroDecimal % 2;
 
-            // Añadimos el resto a la cadena
+            
             numeroBinario = resto + numeroBinario;
 
-            // Dividimos el número decimal por 2
+            
             numeroDecimal = numeroDecimal / 2;
 
-            // Incrementamos el índice del bucle
+        
             i++;
         }
 
-        // Imprimimos el resultado
+        
         System.out.println("El número binario es: " + numeroBinario);
     }
 }
@@ -87,13 +87,13 @@ public class EJERCICIO11ENTEROS {
         
 
     
-        // Declaramos un conjunto de números enteros
+        
         int[] numeros = {1, 2, 3, 4, 5, 2, 7, 9};
 
-        // Creamos una variable para almacenar el número que aparece más de una vez
+
         int numeroRepetido = 0;
 
-        // Recorremos el conjunto de números
+
         for (int i = 0; i < numeros.length; i++) {
             // Comprobamos si el número actual ya ha aparecido
             for (int j = 0; j < i; j++) {
@@ -105,11 +105,11 @@ public class EJERCICIO11ENTEROS {
             }
         }
 
-        // Si el número repetido es distinto de 0, lo imprimimos
+        
         if (numeroRepetido != 0) {
             System.out.println("El número repetido es: " + numeroRepetido);
         } else {
-            // No hay ningún número repetido
+        
             System.out.println("No hay ningún número repetido");
         }
     }
@@ -139,23 +139,23 @@ public class Actividad {
         
 
     
-        // Declaramos la variable para almacenar el número decimal
+        
         int numeroDecimal = 10;
 
-        // Declaramos la variable para almacenar el resultado
+        
         String numeroBinario = "";
 
-        // Inicializamos el bucle
+        
         for (int i = numeroDecimal; i > 0; i /= 2) {
 
-            // Calculamos el resto de la división
+            
             int resto = i % 2;
 
-            // Añadimos el resto a la cadena
+            
             numeroBinario = resto + numeroBinario;
         }
 
-        // Imprimimos el resultado
+        
         System.out.println("El número binario es: " + numeroBinario);
     }
 
